@@ -1,4 +1,3 @@
-
 # Static Discord Rich Presence Client
 
 This repository contains a Python script for creating and managing a static Discord Rich Presence using the pypresence library.
@@ -7,6 +6,12 @@ This repository contains a Python script for creating and managing a static Disc
 - Asynchronous Discord Rich Presence management
 - Customizable presence data
 - Graceful handling of connection and disconnection
+
+## Compatibility
+- This client should work on all operating systems, but it has been specifically tested on Windows and macOS.
+
+## Resource Efficiency
+- This client is resource-efficient because it sets the presence once and only keeps the connection alive without any continuous loops.
 
 ## Requirements
 - Python 3.6 or higher
